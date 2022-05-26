@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: white;
+}
+
+.connectlink {
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #7f8cff;
+}
+
+h1 {
+  padding-left: 12px;
+  width: 327px;
+  height: 150px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  padding-top: 206px;
+  color: #172b4d;
+}
+
+header {
+
+  background: #e5e5e5;
+  box-sizing: border-box;
+  left: 0;
+  padding: 24px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+
+
+}
+
+html {
+  font-family: 'Poppins', serif;
+  font-size: 16px;
+}
+
+.intro {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("./images/header-background-mobile.svg");
+
+}
+
+.intro-text {
+  width: 327px;
+  height: 146px;
+  padding: 12px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #344563;
+}
+
+.logo {
+  width: 76px;
+  height: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+  border-radius: nullpx;
+}
+
+.logonav {
+  list-style-type: none;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 2.5vw;
+  list-style-type: none;
+}
+
+section {
+  box-sizing: border-box;
+  min-height: 100vh;
+  padding: 40px 20px;
+  width: 100%;
+}
+
+.icons li {
+  display: inline-block;
+  margin: 0 2.5vw;
+  list-style-type: none;
+}
+
+.icons button {
+  background: none;
+  border: none;
+}
+
+#logonav {
+  display: flex;
+  justify-content: space-between;
+}
