@@ -12,6 +12,7 @@ a {
   height: 100%;
   padding-top: 24px;
   background-image: url('./images/header-shapes\ mobile.svg');
+  background-repeat: no-repeat;
 }
 
 .connectlink {
@@ -35,7 +36,7 @@ h1 {
 }
 
 header {
-  background: #e5e5e5;
+  background: white;
   box-sizing: border-box;
   left: 0;
   padding: 24px;
