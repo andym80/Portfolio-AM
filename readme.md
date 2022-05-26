@@ -1,5 +1,4 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-
 ## Portfolio: mobile version skeleton"
 
 > > This project was fitted into mobile with responsive dimension, you can find on this clear custom design an approach on your next portfolio work.
@@ -28,7 +27,7 @@ All linters file are:
 👤 **Andy Menutti**
 
 - GitHub: [@andym80](https://github.com/andym80)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/andres-menutti-5a319816/?originalSubdomain=ar)
+- LinkedIn: [LinkedIn](http://lnnk.in/ekew)
 
 ## 🤝 Contributing
 

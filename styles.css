@@ -117,7 +117,7 @@ section {
   display: flex;
   flex-direction: row;
   align-items: baseline;
-  list-style-type: none
+  list-style-type: none;
 }
 
 .icons button {
@@ -128,4 +128,5 @@ section {
 #logonav {
   display: flex;
   justify-content: space-between;
+  /* stylelint-disable-next-line no-missing-end-of-source-newline */
 }
