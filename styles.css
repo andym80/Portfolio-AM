@@ -8,8 +8,11 @@ a {
   text-decoration: none;
 }
 
-body {
-  background-color: white;
+#back-images-intro {
+  width: 100%;
+  height: 100%;
+  padding-top: 24px;
+  background-image: url('./images/header-shapes\ mobile.svg');
 }
 
 .connectlink {
@@ -17,7 +20,6 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0em;
   text-align: left;
   color: #7f8cff;
 }
@@ -54,7 +56,6 @@ html {
   align-items: flex-start;
   flex-direction: column;
   justify-content: center;
-  background-color: black;
 }
 
 .intro-text {
@@ -82,7 +83,12 @@ html {
 }
 
 .logonav {
+  background: #e5e5e5;
   list-style-type: none;
+}
+
+main {
+  background-image: url('./images/header-background-mobile.svg');
 }
 
 nav ul {
