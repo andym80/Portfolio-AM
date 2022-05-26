@@ -129,5 +129,4 @@ section {
 #logonav {
   display: flex;
   justify-content: space-between;
-  /* stylelint-disable-next-line no-missing-end-of-source-newline */
 }
