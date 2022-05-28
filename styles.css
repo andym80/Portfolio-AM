@@ -10,7 +10,6 @@ a {
 body {
   box-sizing: border-box;
   background-color: #e5e5e5;
-
 }
 
 .back-images-intro {
@@ -18,21 +17,19 @@ body {
   height: 694px;
   padding-top: 24px;
   background-color: #fff;
-  border-bottom-left-radius: 50px;
+    background-image: url("./images/header-shapes\ mobile.png");
+      background-repeat: no-repeat;
+    
+    }
 }
 
 .container {
   margin: 0 auto;
   max-width: 1080px;
-  padding: 0 0px;
+  padding: 0 0;
   width: 100%;
 }
 
-.container .back-images-intro {
-  background-color: #fff;
-  border-bottom-left-radius: 50px;
-
-}
 
 .connectlink {
   padding: 12px;
@@ -44,22 +41,32 @@ body {
 }
 
 .counter {
-  background: url("./images/counter.png");
-  background-repeat: no-repeat;
+  padding: 0 12px 0 12px;
 }
 
 h1 {
+  padding-top: 120px;
   padding-left: 12px;
   width: 327px;
   height: 150px;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  padding-top: 206px;
   color: #172b4d;
 }
 
-
+h4 {
+  height: 36px;
+  width: 295px;
+  left: 0;
+  padding: 12px 0 20px 0;
+  font-family: 'Poppins', serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+}
 
 header {
   background: white;
@@ -70,11 +77,14 @@ header {
   top: 0;
   z-index: 1000;
   width: 100%;
+  border-bottom-left-radius: 50px;
+
 }
 
 html {
   font-family: 'Poppins', serif;
   font-size: 16px;
+
 }
 
 .intro {
@@ -83,6 +93,9 @@ html {
   flex-direction: column;
   justify-content: center;
   max-width: 100%;
+  padding-top: 48px;
+  background-color: #fff;
+  border-bottom-left-radius: 50px;
 }
 
 .intro-text {
@@ -96,13 +109,29 @@ html {
   letter-spacing: 0;
   text-align: left;
   color: #344563;
+
 }
 
 li {
   list-style-type: none;
-
 }
 
+.linktonic {
+  display: flex;
+  align-content: flex-start;
+  text-align: center;
+  height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  letter-spacing: 0.03em;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  margin: 16px;
+  gap: 12px;
+}
 .logo {
   width: 76px;
   height: 20px;
@@ -124,10 +153,8 @@ main {
   flex-direction: column;
   align-content: center;
   align-items: center;
-  /* background-image: url("./images/header-background-mobile.svg");
-  background-repeat: no-repeat; */
-
-  /* border-bottom-left-radius: 50px */
+  background-image: url("./images/header-background-mobile.svg");
+  background-repeat: no-repeat;
 }
 
 nav ul {
@@ -144,18 +171,27 @@ nav ul li {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(4, 1fr);
-  margin: 182px 38px 0;
+  margin: 0px 38px 0;
   background: #e5e5e5;
   gap: 88px;
   box-sizing: border-box;
   border: 1px solid #dfe1e6;
-
 }
 
 .works-info li {
   display: inline-block;
   gap: 20px;
+}
 
+.works-info {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
 }
 
 .works-tonic {
@@ -167,6 +203,16 @@ nav ul li {
   margin-bottom: 8.8rem;
   border: 1px solid #dfe1e6;
   border-radius: 24px;
+}
+
+.works-ref-font {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+  width: 55px;
+  height: 16px;
 }
 
 .icons li {
@@ -186,7 +232,6 @@ nav ul li {
   border: none;
 }
 
-
 #logonav {
   display: flex;
   justify-content: space-between;
@@ -205,11 +250,52 @@ section {
   background-image: url('./images/Snapshoot-1.png');
   background-size: 100% 100%;
   padding-bottom: 80%;
-
 }
 
 .skills {
   display: flex;
   justify-content: baseline;
   gap: 1.2rem;
+}
+
+.text-tonic {
+  width: 295px;
+  height: 76px;
+  padding: 20px 0 12px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.skills li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 24px;
+  background: #ebebff;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  padding: 4px 12px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+.li-javascript {
+  width: 89px;
+}
+
+.li-css {
+  width: 45px;
+}
+
+.li-html {
+  width: 53px;
 }
