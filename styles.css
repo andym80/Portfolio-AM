@@ -147,6 +147,11 @@ li {
   flex-direction: row;
 }
 
+.linktonic:hover {
+  background-color: rosybrown;
+  transition: 0.25s;
+}
+
 .logo {
   width: 76px;
   height: 20px;
