@@ -20,6 +20,7 @@ a {
 
 article {
   max-height: 552px;
+  margin: 44px 0 0 0;
 }
 
 body {
@@ -31,8 +32,6 @@ body {
   width: 375px;
   height: 694px;
   padding-top: 24px;
-
-  /* background-color: #fff; */
   background-image: url("./images/header-shapes\ mobile.png");
   background-repeat: no-repeat;
 }
@@ -129,9 +128,8 @@ li {
 
 .linktonic {
   display: flex;
-  align-content: center;
+  align-content: flex-start;
   text-align: center;
-  height: 24px;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -140,11 +138,12 @@ li {
   letter-spacing: 0.03em;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  margin: 16px;
-  gap: 12px;
+  margin-block: 16px;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
+  width: 150px;
+  height: 50px;
 }
 
 .linktonic:hover {
