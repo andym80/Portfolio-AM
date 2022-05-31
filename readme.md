@@ -6,12 +6,14 @@
 ## Built With
 
 - HTML/CSS
-- Flexbox
+- Flexbox/Grid CSS
 - from Figma Template
 
 ## Getting Started
 
-Take index.html & style.css files on your code editor. This files are linked.
+Get a copy from this repository on GitHub at CODE (green icon) and paste into your code editor .
+
+Take a look on  index.html & style.css files. These files are linked. 
 
 All images are into folder /images.
 
