@@ -32,9 +32,10 @@ body {
 .back-images-intro {
   width: 375px;
   height: 660px;
-  padding-top: 24px;
+  padding-top: 128px;
   background-image: url("./images/header-shapes\ mobile.png");
   background-repeat: no-repeat;
+  background-position: 0 top;
 }
 
 .back-about {
@@ -79,8 +80,57 @@ body {
   padding: 0 12px 0 12px;
 }
 
+.fill-name,
+.fill-email {
+  padding: 9.3333px 16px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  width: 100vw;
+  height: 779px;
+  background: #6070ff;
+  background-image: url("./images/form-shapes-mobile.svg");
+  background-position: 153px 21px;
+  background-repeat: no-repeat;
+}
+
+.form-name-box,
+.form-email-box {
+  width: 327px;
+  height: 28px;
+  background: #ffffff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding-bottom: 20px;
+  margin: 12px;
+}
+
+.message-box {
+  width: 327px;
+  height: 170px;
+  background: #ffffff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding-bottom: 20px;
+  margin: 12px;
+}
+
+.form-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  padding-bottom: 62px;
+}
+
 h1 {
-  /* padding-top: 120px; */
   padding-left: 12px;
   width: 327px;
   height: 150px;
@@ -95,12 +145,22 @@ h4 {
   width: 295px;
   left: 0;
   padding: 12px 0 20px 0;
-  font-family: 'Poppins', serif;
+  font-family: "Poppins", serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
   letter-spacing: 0;
   text-align: left;
+}
+
+h5 {
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #ffffff;
+  padding: 103px 0 12px 0;
 }
 
 header {
@@ -111,14 +171,24 @@ header {
   position: fixed;
   top: 0;
   z-index: 1000;
-  width: 375px;
+  width: 100vw;
   border-bottom-left-radius: 69px;
   border-bottom-right-radius: 69px;
 }
 
 html {
-  font-family: 'Poppins', serif;
+  font-family: "Poppins", serif;
   font-size: 16px;
+}
+
+input {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  border: none;
+  outline: none;
 }
 
 .intro {
@@ -151,6 +221,9 @@ li {
 
 .linktonic {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   align-content: flex-start;
   text-align: center;
   font-style: normal;
@@ -162,9 +235,6 @@ li {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin: 16px 0 16px 0;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   width: 150px;
   height: 50px;
 }
@@ -211,7 +281,7 @@ nav ul li {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(4, 1fr);
-  margin: 114px 24px 114px auto;
+  margin: 114px 12px 114px;
   row-gap: 44px;
   background: #e5e5e5;
   box-sizing: border-box;
@@ -278,6 +348,45 @@ nav ul li {
   display: flex;
   justify-content: space-between;
 }
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-content: flex-start;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  letter-spacing: 0.03em;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  margin: 16px 0 16px 0;
+  width: 150px;
+  height: 50px;
+}
+.submit-button {
+  display: flex;
+  align-content: flex-start;
+  text-align: center;
+  background-color: #ebebff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  margin: 16px 0 16px 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 150px;
+  height: 50px;
+  margin: 12px;
+}
+
+.submit-button:hover {
+  background-color: rgb(241, 238, 9);
+  transition: 0.25s;
+}
 
 .snapshoot {
   width: fit-content;
@@ -288,6 +397,12 @@ nav ul li {
   display: flex;
   justify-content: baseline;
   gap: 1.2rem;
+}
+
+textarea {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
 }
 
 .text-tonic {
