@@ -44,6 +44,26 @@ body {
   padding-top: 24px;
 }
 
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-content: flex-start;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  letter-spacing: 0.03em;
+  border: none;
+  border-radius: 16px;
+  margin: 12px;
+  width: 150px;
+  height: 50px;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1080px;
@@ -102,7 +122,7 @@ body {
 .form-email-box {
   width: 327px;
   height: 28px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   padding-bottom: 20px;
@@ -112,15 +132,15 @@ body {
 .message-box {
   width: 327px;
   height: 170px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
+  margin: 16px 0 16px 12px;
   padding-bottom: 20px;
-  margin: 12px;
 }
 
 .form-text {
-  font-family: "Poppins";
+  font-family: "Poppins", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -159,7 +179,7 @@ h5 {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #ffffff;
+  color: #fff;
   padding: 103px 0 12px 0;
 }
 
@@ -182,7 +202,7 @@ html {
 }
 
 input {
-  font-family: "Poppins";
+  font-family: "Poppins", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -339,7 +359,7 @@ nav ul li {
   list-style-type: none;
 }
 
-.icons button {
+button .icons {
   background: none;
   border: none;
 }
@@ -348,25 +368,7 @@ nav ul li {
   display: flex;
   justify-content: space-between;
 }
-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  align-content: flex-start;
-  text-align: center;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  color: #396df2;
-  letter-spacing: 0.03em;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
-  margin: 16px 0 16px 0;
-  width: 150px;
-  height: 50px;
-}
+
 .submit-button {
   display: flex;
   align-content: flex-start;
@@ -374,7 +376,6 @@ button {
   background-color: #ebebff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  margin: 16px 0 16px 0;
   align-items: center;
   justify-content: center;
   flex-direction: column;
