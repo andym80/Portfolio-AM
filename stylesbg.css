@@ -86,6 +86,7 @@
     text-align: left;
     color: rgb(127, 140, 255);
   }
+
   .connectlink-about {
     padding: 12px;
     font-size: 16px;
@@ -241,7 +242,7 @@
     letter-spacing: 0.03em;
     border: 1px solid rgb(223, 225, 230);
     border-radius: 6px;
-    margin: 16px 11px;
+    margin: 16px 0px;
     width: 93px;
     height: 30px;
   }
@@ -277,6 +278,34 @@
     margin: 0px 2.5vw;
     list-style-type: none;
   }
+
+.resume-link {
+    margin: 15px 12px;
+    display: flex;
+    align-items: center;
+    place-content: flex-start center;
+    flex-direction: column;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: rgb(57, 109, 242);
+    letter-spacing: 0.03em;
+    border: 1px solid rgb(223, 225, 230);
+    border-radius: 6px;
+    width: 46%;
+    height: 11%;
+}
+.resume-link :hover {
+    background-size: 300%;
+    background-color: rgb(253, 255, 127);
+    border-radius: 15%;
+    transition: 0.24s;
+
+}
+.li
+
   .works {
     display: grid;
     grid-template-columns: 1fr;
@@ -463,12 +492,12 @@ transform: rotate(-9deg);
     text-align: right;
     margin: 3.2rem 0.2rem;
   }
-  .lang-frame-skills_icons li:last-child {
-  }
+
   .lang-frame-skills_icons {
     width: 91.4%;
     display: flex;
     flex-direction: row;
+    column-gap: 8%;
   }
   .lang-frame-skills_frameworks {
     border-bottom: 1px solid rgb(223, 225, 230);
