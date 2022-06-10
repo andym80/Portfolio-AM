@@ -1,7 +1,11 @@
+
+@media only screen and (min-width: 768px) {
+
 * {
   margin: 0;
   padding: 0;
 }
+
 
 a {
   text-decoration: none;
@@ -30,7 +34,7 @@ body {
 }
 
 .back-images-intro {
-  width: 375px;
+  width: 80%;
   height: 660px;
   padding-top: 128px;
   background-image: url("./images/header-shapes\ mobile.png");
@@ -98,6 +102,12 @@ button {
 
 .counter {
   padding: 0 12px 0 12px;
+}
+
+.flex-about-frame{
+display: flex;
+flex-direction: row;
+align-content: space-between;
 }
 
 .fill-name,
@@ -297,6 +307,11 @@ nav ul li {
   list-style-type: none;
 }
 
+.work-title {
+  display: flex;
+  flex-direction: column;
+}
+
 .works {
   display: grid;
   grid-template-columns: 1fr;
@@ -447,6 +462,10 @@ textarea {
 .li-html {
   width: 53px;
 }
+.works-box{
+display: flex;
+flex-direction: column;
+}
 
 /* Languages & Frameworks */
 .lang-frame-skills {
@@ -517,3 +536,6 @@ textarea {
 .arrow-right {
   padding: 0.9rem 1.6rem 1rem 1.2rem;
 }
+
+}
+
