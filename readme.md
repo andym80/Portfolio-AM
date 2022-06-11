@@ -24,7 +24,7 @@ All linters file are:
 *package.json
 \*.github/workflows/linters.yml
 
-## Authors
+## Author
 
 👤 **Andy Menutti**
 

@@ -284,7 +284,6 @@
     transition: all 0.25s ease 0s;
   }
 
-
   .logo {
     width: 76px;
     height: 20px;
@@ -343,9 +342,10 @@
     border-radius: 15%;
     transition: 0.24s;
   }
-.resume-link :active{
-font-size: x-large;
-}
+
+  .resume-link :active {
+    font-size: x-large;
+  }
 
   .li .works {
     display: grid;
