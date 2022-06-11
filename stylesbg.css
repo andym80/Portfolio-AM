@@ -14,14 +14,14 @@
     flex-direction: column;
     place-content: center;
     max-width: 100%;
-    padding-top: 3px;
+    padding-top: 0.1875rem;
     background-color: rgb(255, 255, 255);
     width: 100%;
   }
 
   article {
-    max-height: 532px;
-    margin: 300px 24px 0 0;
+    max-height: 33.25rem;
+    margin: 18.75rem 1.5rem 0 0;
     row-gap: 7%;
 
     /* display: grid; */
@@ -35,7 +35,7 @@
   .back-images-intro {
     width: 100%;
     max-height: 100%;
-    padding-top: 48px;
+    padding-top: 3rem;
     background-image: url("./images/header-bg.svg");
     background-repeat: no-repeat;
     background-position: 6px -68%;
@@ -62,16 +62,16 @@
     color: rgb(57, 109, 242);
     letter-spacing: 0.03em;
     border: none;
-    border-radius: 16px;
-    margin: 12px;
-    width: 150px;
-    height: 50px;
+    border-radius: 1rem;
+    margin: 0.75rem;
+    width: 9.375rem;
+    height: 3.125rem;
   }
 
   .container {
     margin: 0 auto;
-    max-width: 1080px;
-    padding: 25px;
+    max-width: 67.5rem;
+    padding: 1.5625rem;
     width: 94%;
     height: 100%;
     display: flex;
@@ -83,7 +83,7 @@
   .container-about {
     margin: 0 auto;
     max-width: 67.5rem;
-    padding: 0 8px;
+    padding: 0 0.5rem;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -92,7 +92,7 @@
   }
 
   .connectlink {
-    padding: 12px;
+    padding: 0.75rem;
     font-size: 16px;
     font-weight: 500;
     margin: 6% 0 0;
@@ -102,11 +102,11 @@
   }
 
   .connectlink-about {
-    padding: 12px;
-    font-size: 16px;
+    padding: 0.75rem;
+    font-size: 1rem;
     font-weight: 500;
     margin: 20% 0 0;
-    line-height: 24px;
+    line-height: 1.5rem;
     text-align: left;
     color: rgb(127, 140, 255);
   }
@@ -117,7 +117,7 @@
 
   .fill-name,
   .fill-email {
-    padding: 9.3328px 16px;
+    padding: 0.5833rem 1rem;
   }
 
   .floating {
@@ -134,7 +134,7 @@
     align-items: center;
     align-content: center;
     width: 100vw;
-    height: 779px;
+    height: 48.6875rem;
     background:
       url("./images/contact- form-back.svg") 50% 15% / 92% no-repeat
       rgb(96, 112, 255);
@@ -142,8 +142,8 @@
 
   .form-name-box,
   .form-email-box {
-    width: 327px;
-    height: 28px;
+    width: 20.4375rem;
+    height: 1.75rem;
     background: rgb(255, 255, 255);
     border: 0.0625rem solid rgb(207, 216, 220);
     border-radius: 8px;
@@ -169,11 +169,11 @@
     line-height: 28px;
     text-align: center;
     color: rgb(235, 235, 255);
-    padding-bottom: 62px;
+    padding-bottom: 3.875rem;
   }
 
   h1 {
-    padding-left: 12px;
+    padding-left: 0.75rem;
     width: 100%;
     height: 97px;
     font-weight: 700;
@@ -199,7 +199,7 @@
     font-size: 40px;
     line-height: 52px;
     color: rgb(255, 255, 255);
-    padding: 103px 0 12px;
+    padding: 6.4375rem 0 0.75rem;
   }
 
   header {
@@ -290,7 +290,7 @@
   }
 
   .linktonic:hover {
-    background-color: rosybrown;
+    background-color: #6070ff;
     transition: all 0.25s ease 0s;
   }
 
@@ -348,7 +348,7 @@
 
   .resume-link :hover {
     background-size: 300%;
-    background-color: rgb(253, 255, 127);
+    background-color: #6070ff;
     border-radius: 15%;
     transition: 0.24s;
   }
@@ -475,7 +475,7 @@
 
   .skills {
     display: flex;
-    gap: 19.2px;
+    gap: 1.2rem;
   }
 
   textarea {
@@ -577,7 +577,7 @@
     font-weight: 500;
     background-color: rgb(247, 247, 249);
     text-align: right;
-    margin: 51.2px 3.2px;
+    margin: 3.2rem 0.2rem;
   }
 
   .lang-frame-skills_icons {
@@ -597,6 +597,6 @@
   }
 
   .arrow-right {
-    padding: 14.4px 25.6px 16px 19.2px;
+    padding: 0.9rem 1.6rem 1rem 1.2rem;
   }
 }
