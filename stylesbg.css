@@ -1,5 +1,4 @@
-
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 48rem) {
   * {
     margin: 0;
     padding: 0;
@@ -15,14 +14,17 @@
     flex-direction: column;
     place-content: center;
     max-width: 100%;
-    padding-top: 3rem;
+    padding-top: 3px;
     background-color: rgb(255, 255, 255);
     width: 100%;
   }
 
   article {
-    max-height: 33.25rem;
-    margin: 10.75rem 1.5rem 0 0;
+    max-height: 532px;
+    margin: 300px 24px 0 0;
+    row-gap: 7%;
+
+    /* display: grid; */
   }
 
   body {
@@ -33,18 +35,18 @@
   .back-images-intro {
     width: 100%;
     max-height: 100%;
-    padding-top: 7.5rem;
+    padding-top: 48px;
     background-image: url("./images/header-bg.svg");
     background-repeat: no-repeat;
-    background-position: 0.375rem -68%;
+    background-position: 6px -68%;
     background-size: 100%;
     margin-bottom: 12%;
   }
 
   .back-about {
-    width: 23.4375rem;
-    height: 28.125rem;
-    padding-top: 1.5rem;
+    width: 322px;
+    height: 450px;
+    padding: 2vh;
   }
 
   button {
@@ -55,21 +57,21 @@
     text-align: center;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.0625rem;
-    line-height: 1.5rem;
+    font-size: 17px;
+    line-height: 24px;
     color: rgb(57, 109, 242);
     letter-spacing: 0.03em;
     border: none;
-    border-radius: 1rem;
-    margin: 0.75rem;
-    width: 9.375rem;
-    height: 3.125rem;
+    border-radius: 16px;
+    margin: 12px;
+    width: 150px;
+    height: 50px;
   }
 
   .container {
     margin: 0 auto;
-    max-width: 67.5rem;
-    padding: 0;
+    max-width: 1080px;
+    padding: 25px;
     width: 94%;
     height: 100%;
     display: flex;
@@ -80,8 +82,8 @@
 
   .container-about {
     margin: 0 auto;
-    max-width: 1080px;
-    padding: 0 0.5rem;
+    max-width: 67.5rem;
+    padding: 0 8px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -90,32 +92,32 @@
   }
 
   .connectlink {
-    padding: 0.75rem;
-    font-size: 1rem;
+    padding: 12px;
+    font-size: 16px;
     font-weight: 500;
     margin: 6% 0 0;
-    line-height: 1.5rem;
+    line-height: 24px;
     text-align: left;
     color: rgb(127, 140, 255);
   }
 
   .connectlink-about {
-    padding: 0.75rem;
-    font-size: 1rem;
+    padding: 12px;
+    font-size: 16px;
     font-weight: 500;
     margin: 20% 0 0;
-    line-height: 1.5rem;
+    line-height: 24px;
     text-align: left;
     color: rgb(127, 140, 255);
   }
 
   .counter {
-    padding: 0 0.75rem;
+    padding: 0 12px;
   }
 
   .fill-name,
   .fill-email {
-    padding: 0.5833rem 1rem;
+    padding: 9.3328px 16px;
   }
 
   .floating {
@@ -132,7 +134,7 @@
     align-items: center;
     align-content: center;
     width: 100vw;
-    height: 48.6875rem;
+    height: 779px;
     background:
       url("./images/contact- form-back.svg") 50% 15% / 92% no-repeat
       rgb(96, 112, 255);
@@ -140,52 +142,52 @@
 
   .form-name-box,
   .form-email-box {
-    width: 20.4375rem;
-    height: 1.75rem;
+    width: 327px;
+    height: 28px;
     background: rgb(255, 255, 255);
-    border: 1px solid rgb(207, 216, 220);
-    border-radius: 0.5rem;
-    padding-bottom: 1.25rem;
-    margin: 0.75rem;
+    border: 0.0625rem solid rgb(207, 216, 220);
+    border-radius: 8px;
+    padding-bottom: 20px;
+    margin: 12px;
   }
 
   .message-box {
-    width: 20.4375rem;
-    height: 10.625rem;
+    width: 327px;
+    height: 170px;
     background: rgb(255, 255, 255);
-    border: 1px solid rgb(207, 216, 220);
-    border-radius: 0.5rem;
-    margin: 1rem 0 1rem 0.75rem;
-    padding-bottom: 1.25rem;
+    border: 0.0625rem solid rgb(207, 216, 220);
+    border-radius: 8px;
+    margin: 16px 0 16px 12px;
+    padding-bottom: 20px;
   }
 
   .form-text {
     font-family: Poppins, serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.25rem;
-    line-height: 1.75rem;
+    font-size: 20px;
+    line-height: 28px;
     text-align: center;
     color: rgb(235, 235, 255);
-    padding-bottom: 3.875rem;
+    padding-bottom: 62px;
   }
 
   h1 {
-    padding-left: 0.75rem;
+    padding-left: 12px;
     width: 100%;
-    height: 6.0625rem;
+    height: 97px;
     font-weight: 700;
-    font-size: 2.5rem;
-    line-height: 3.25rem;
+    font-size: 40px;
+    line-height: 52px;
     color: rgb(23, 43, 77);
   }
 
   h4 {
     left: 0;
     font-family: Poppins, serif;
-    font-size: 2rem;
+    font-size: 32px;
     font-weight: 700;
-    line-height: 2.75rem;
+    line-height: 44px;
     letter-spacing: 0;
     text-align: left;
   }
@@ -194,59 +196,67 @@
     font-family: Poppins, serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 2.5rem;
-    line-height: 3.25rem;
+    font-size: 40px;
+    line-height: 52px;
     color: rgb(255, 255, 255);
-    padding: 6.4375rem 0 0.75rem;
+    padding: 103px 0 12px;
   }
 
   header {
     background: white;
     box-sizing: border-box;
     left: 0;
-    padding: 24px;
+    padding: 1.5rem;
     position: fixed;
     top: 0;
     z-index: 1000;
     width: 100vw;
-    border-bottom-left-radius: 69px;
-    border-bottom-right-radius: 69px;
+    border-bottom-left-radius: 4.3125rem;
+    border-bottom-right-radius: 4.3125rem;
   }
 
   html {
     font-family: Poppins, serif;
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   input {
     font-family: Poppins, serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
     border: none;
     outline: none;
   }
 
   .intro {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 100%;
-    padding-top: 124px;
+    /* display: flex; */
+
+    /* align-items: flex-start; */
+
+    /* flex-direction: column; */
+
+    /* justify-content: center; */
+
+    /* max-width: 100%; */
+
+    /* padding-top: 7.75rem; */
     background-color: rgb(255, 255, 255);
-    border-bottom-left-radius: 50px;
+    border-bottom-left-radius: 3.125rem;
+
+    /* height: 1%; */
+    background-size: -1%;
   }
 
   .intro-text {
     width: 100%;
-    height: 95px;
-    padding: 12px;
+    height: 5.9375rem;
+    padding: 0.75rem;
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5rem;
     letter-spacing: 0;
     text-align: left;
     color: rgb(52, 69, 99);
@@ -268,15 +278,15 @@
     text-align: center;
     font-style: normal;
     font-weight: 500;
-    font-size: 10px;
-    line-height: 24px;
+    font-size: 0.625rem;
+    line-height: 1.5rem;
     color: rgb(57, 109, 242);
     letter-spacing: 0.03em;
-    border: 1px solid rgb(223, 225, 230);
-    border-radius: 6px;
-    margin: 16px 0;
-    width: 93px;
-    height: 30px;
+    border: 0.0625rem solid rgb(223, 225, 230);
+    border-radius: 0.375rem;
+    margin: 1rem 0;
+    width: 5.8125rem;
+    height: 1.875rem;
   }
 
   .linktonic:hover {
@@ -285,12 +295,12 @@
   }
 
   .logo {
-    width: 76px;
-    height: 20px;
+    width: 4.75rem;
+    height: 1.25rem;
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
     color: rgb(96, 112, 255);
   }
 
@@ -318,7 +328,7 @@
   }
 
   .resume-link {
-    margin: 15px 12px;
+    margin: 0.9375rem 0.75rem;
     display: flex;
     align-items: center;
     place-content: flex-start center;
@@ -326,12 +336,12 @@
     text-align: center;
     font-style: normal;
     font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
+    font-size: 1.0625rem;
+    line-height: 1.5rem;
     color: rgb(57, 109, 242);
     letter-spacing: 0.03em;
-    border: 1px solid rgb(223, 225, 230);
-    border-radius: 6px;
+    border: 0.0625rem solid rgb(223, 225, 230);
+    border-radius: 0.375rem;
     width: 46%;
     height: 11%;
   }
@@ -351,17 +361,17 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
-    margin: 169px 12px 114px;
-    row-gap: 44px;
+    margin: 10.5625rem 0.75rem 7.125rem;
+    row-gap: 2.75rem;
     background: rgb(229, 229, 229);
     box-sizing: border-box;
-    border: 1px solid rgb(223, 225, 230);
+    border: 0.0625rem solid rgb(223, 225, 230);
     align-content: center;
   }
 
   .works-info li {
     display: inline-block;
-    gap: 20px;
+    gap: 1.25rem;
   }
 
   .works-info {
@@ -370,8 +380,8 @@
     align-content: space-between;
     font-style: normal;
     font-weight: 600;
-    font-size: 13px;
-    line-height: 16px;
+    font-size: 0.8125rem;
+    line-height: 1rem;
     color: rgb(122, 134, 154);
   }
 
@@ -384,23 +394,24 @@
     flex-direction: row;
     justify-content: center;
     background-color: rgb(255, 255, 255);
-    padding: 24px 12px 0 24px;
-    border: 1px solid rgb(223, 225, 230);
-    border-radius: 24px;
-    max-width: 96.4%;
+    padding: 1.5rem 0.75rem 0 1.5rem;
+    border: 0.0625rem solid rgb(223, 225, 230);
+    border-radius: 1.5rem;
+    max-width: 100%;
     height: 100%;
     max-height: 100%;
-    width: 79%;
+    width: 64%;
+    column-gap: 0.5%;
   }
 
   .works-ref-font {
     font-style: normal;
     font-weight: 600;
-    font-size: 13px;
-    line-height: 16px;
+    font-size: 0.8125rem;
+    line-height: 1rem;
     color: rgb(52, 69, 99);
-    width: 55px;
-    height: 16px;
+    width: 3.4375rem;
+    height: 1rem;
   }
 
   .icons li {
@@ -430,13 +441,13 @@
     place-content: flex-start center;
     text-align: center;
     background-color: rgb(235, 235, 255);
-    border: 1px solid rgb(223, 225, 230);
-    border-radius: 16px;
+    border: 0.0625rem solid rgb(223, 225, 230);
+    border-radius: 1rem;
     align-items: center;
     flex-direction: column;
-    width: 150px;
-    height: 50px;
-    margin: 12px;
+    width: 9.375rem;
+    height: 3.125rem;
+    margin: 0.75rem;
   }
 
   .submit-button:hover {
@@ -449,6 +460,14 @@
     height: fit-content;
   }
 
+  #snap,
+  #snap2,
+  #snap3,
+  #snap4 {
+    size: 80%;
+    height: 120%;
+  }
+
   .snapshoot:hover {
     transform: scale(0.97);
     transform: rotate(-9deg);
@@ -456,7 +475,7 @@
 
   .skills {
     display: flex;
-    gap: 1.2rem;
+    gap: 19.2px;
   }
 
   textarea {
@@ -466,13 +485,13 @@
   }
 
   .text-tonic {
-    width: 295px;
-    height: 76px;
-    padding: 12px 0 5px;
+    width: 18.4375rem;
+    height: 4.75rem;
+    padding: 0.75rem 0 0.3125rem;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
     color: rgb(52, 69, 99);
   }
 
@@ -481,30 +500,30 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 10px;
+    height: 0.625rem;
     background: rgb(235, 235, 255);
     text-align: center;
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 0.75rem;
+    line-height: 1rem;
     letter-spacing: 0.03em;
     color: rgb(96, 112, 255);
-    padding: 4px 12px;
-    border: 1px solid rgb(223, 225, 230);
-    border-radius: 16px;
+    padding: 0.25rem 0.75rem;
+    border: 0.0625rem solid rgb(223, 225, 230);
+    border-radius: 1rem;
   }
 
   .li-javascript {
-    width: 89px;
+    width: 5.5625rem;
   }
 
   .li-css {
-    width: 45px;
+    width: 2.8125rem;
   }
 
   .li-html {
-    width: 53px;
+    width: 3.3125rem;
   }
 
   .textarea {
@@ -514,8 +533,9 @@
 
   .lang-frame-skills {
     background-color: rgb(255, 255, 255);
-    padding-left: 2.5%;
+    padding: 0.5% 0% 1% 0%;
     width: 100%;
+    height: -50%;
   }
 
   .lang-frame-skills_languages {
@@ -523,12 +543,12 @@
     align-items: center;
     justify-content: space-between;
     color: rgb(0, 0, 0);
-    padding-right: 48px;
+    padding-right: 3rem;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    height: 70px;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    height: 4.375rem;
   }
 
   .javascript .html5 .css {
@@ -536,15 +556,15 @@
     align-items: center;
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
     color: rgb(37, 56, 88);
     text-align: center;
-    margin-bottom: 12px;
+    margin-bottom: 0.75rem;
   }
 
   .arrow-down {
-    padding: 0.9rem 1.6rem 1rem 1.2rem;
+    padding: 14.4px 25.6px 16px 19.2px;
   }
 
   .lang-frame-skills_icons li {
@@ -553,11 +573,11 @@
     align-items: center;
     justify-content: normal;
     color: rgb(37, 56, 88);
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 500;
     background-color: rgb(247, 247, 249);
     text-align: right;
-    margin: 3.2rem 0.2rem;
+    margin: 51.2px 3.2px;
   }
 
   .lang-frame-skills_icons {
@@ -568,15 +588,15 @@
   }
 
   .lang-frame-skills_frameworks {
-    border-bottom: 1px solid rgb(223, 225, 230);
-    height: 72px;
+    border-bottom: 0.0625rem solid rgb(223, 225, 230);
+    height: 4.5rem;
   }
 
   .lang-frame-skills_skills {
-    border-bottom: 1px solid rgb(223, 225, 230);
+    border-bottom: 0.0625rem solid rgb(223, 225, 230);
   }
 
   .arrow-right {
-    padding: 0.9rem 1.6rem 1rem 1.2rem;
+    padding: 14.4px 25.6px 16px 19.2px;
   }
 }
