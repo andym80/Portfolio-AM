@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-## Portfolio: mobile version skeleton"
+## Portfolio: mobile & desktop version
 
-> > This project was fitted into mobile with responsive dimension, you can find on this clear custom design an approach on your next portfolio work.
+> > This project was fitted into mobile & desktop with responsive dimension, you can find on this clear custom design an approach on your next portfolio work.
 
 ## Built With
 
@@ -13,7 +13,7 @@
 
 Get a copy from this repository on GitHub at CODE (green icon) and paste into your code editor .
 
-Take a look on  index.html & style.css files. These files are linked. 
+Take a look on  index.html & style.css files. These files are linked.
 
 All images are into folder /images.
 
@@ -24,7 +24,7 @@ All linters file are:
 *package.json
 \*.github/workflows/linters.yml
 
-## Authors
+## Author
 
 👤 **Andy Menutti**
 

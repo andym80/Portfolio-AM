@@ -5,7 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesbg.css">
   <link rel="stylesheet" href="styles.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -32,21 +34,23 @@
     <section class="intro">
       <div class="container">
         <div class="back-images-intro">
-
-          <h1>I´m Andy<br>Glad to see<br>you!</h1>
+          <div class="intro-text-box">
+          <h1>I´m Andy<br>Glad to see you!</h1>
           <p class="intro-text">I’m a software developer! I can help you
             build a product, feature or website. Look
             through some of my work and
             experience! If you like what you see and have a project you need coded, don’t
             hestiate to contact me.
           </p>
+        <div class="connect-intro">
           <a href="#">
             <h3 class="connectlink">LET´S CONNECT</h3>
           </a>
-
+        </div>
           <div class="socialmedia">
             <ul class="icons">
               <li>
+
 
                 <a href="#"><img src="./images/twitter.svg" alt="twitter"></a>
               </li>
@@ -70,6 +74,7 @@
           </div>
         </div>
       </div>
+    </div>
     </section>
 
     <section class="works">
@@ -77,7 +82,7 @@
         <div class="container">
           <div class="works-tonic">
             <div class="snapshoot">
-              <img src="./images/Snapshoot-1.png" alt="tonich4" />
+              <img src="./images/snapshoot-1.png" alt="snap" id="snap1"/>
             </div>
             <div class="work-title">
               <h4>Tonic</h4>
@@ -97,10 +102,11 @@
                 <li class="li-css">css</li>
                 <li class="li-javascript">javascript</li>
               </ul>
-            </div>
+
 
             <div class="link-project"></div>
             <a class="linktonic" href="#">See Project</a>
+          </div>
           </div>
         </div>
       </article>
@@ -109,7 +115,7 @@
         <div class="container">
           <div class="works-tonic">
             <div class="snapshoot">
-              <img src="./images/Snapshoot-1.png" alt="tonich4" />
+              <img src="./images/snapshoot-1.png" alt="snap2" id="snap2"/>
             </div>
             <div class="work-title">
               <h4>Tonic</h4>
@@ -129,10 +135,11 @@
                 <li class="li-css">css</li>
                 <li class="li-javascript">javascript</li>
               </ul>
-            </div>
+
 
             <div class="link-project"></div>
             <a class="linktonic" href="#">See Project</a>
+          </div>
           </div>
         </div>
       </article>
@@ -141,7 +148,7 @@
         <div class="container">
           <div class="works-tonic">
             <div class="snapshoot">
-              <img src="./images/Snapshoot-1.png" alt="tonich4" />
+              <img src="./images/snapshoot-1.png" alt="snap" id="snap3"/>
             </div>
             <div class="work-title">
               <h4>Tonic</h4>
@@ -161,21 +168,24 @@
                 <li class="li-css">css</li>
                 <li class="li-javascript">javascript</li>
               </ul>
-            </div>
+
 
             <div class="link-project"></div>
             <a class="linktonic" href="#">See Project</a>
           </div>
+          </div>
         </div>
       </article>
+
 
       <article>
         <div class="container">
           <div class="works-tonic">
             <div class="snapshoot">
-              <img src="./images/Snapshoot-1.png" alt="tonich4" />
+              <img src="./images/snapshoot-1.png" alt="snap4" id="snap4" />
             </div>
             <div class="work-title">
+<div class="works-box">
               <h4>Tonic</h4>
               <ul class="works-info">
                 <li class="works-ref-font">CANOPY</li>
@@ -193,17 +203,20 @@
                 <li class="li-css">css</li>
                 <li class="li-javascript">javascript</li>
               </ul>
-            </div>
 
             <div class="link-project"></div>
             <a class="linktonic" href="#">See Project</a>
           </div>
         </div>
+      </div>
+      </div>
       </article>
 
     </section>
 
-    <section class="about">
+    <div class="floating">
+    <div class="about">
+
       <div class="container-about">
         <div class="back-about">
 
@@ -214,9 +227,11 @@
             experience! If you like what you see and have a project you need coded, don’t
             hestiate to contact me.
           </p>
+          <div class="about-connect">
           <a href="#">
-            <h3 class="connectlink">LET´S CONNECT</h3>
+            <h3 class="connectlink-about">LET´S CONNECT</h3>
           </a>
+        </div>
 
           <div class="socialmedia">
             <ul class="icons">
@@ -243,12 +258,17 @@
             </ul>
           </div>
           <div class="link-project"></div>
-          <a class="linktonic" href="#">Get my resume</a>
+<div class="resume-link">
+          <a href="#">Get my resume</a>
+        </div>
         </div>
       </div>
-    </section>
 
-    <section class="lang-frame-skills">
+    </div>
+
+
+    <div class="lang-frame-skills">
+
       <ul class="lang-frame-skills_languages">
         <li>Languages</li>
         <li><img src="./images/union.svg" class="arrow-down" alt="arrow down"></li>
@@ -272,7 +292,9 @@
         <li>Skills</li>
         <li><img src="./images/arrowright.svg" class="arrow-right" alt="arrow right"></li>
       </ul>
-    </section>
+
+    </div>
+</div>
 
     <section class="form">
     <div class="form-box"></div>
@@ -295,7 +317,7 @@
 
     <div class="message-box">
       <div class="fill-messagge"><label for="text"></label></div>
-      <textarea name="name" id="form" cols="37" rows="12" maxlength="500" wrap="soft"
+      <textarea class="textarea" name="name" id="form" cols="37" rows="12" maxlength="500" wrap="soft"
         placeholder="Enter your message here..." required></textarea>
 
     </div>
