@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/andym80/my-portfolio-sk#readme",
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^4.1.3",
+    "autoprefixer": "^10.4.7",
     "hint": "^6.2.0",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
