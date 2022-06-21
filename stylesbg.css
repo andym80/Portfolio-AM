@@ -1,4 +1,5 @@
-@media only screen and (min-width: 48rem) {
+
+@media only screen and (min-width: 768px) {
   * {
     margin: 0;
     padding: 0;
@@ -8,6 +9,11 @@
     text-decoration: none;
   }
 
+/* .appear{
+width: 100%;
+background-color: green;
+height: 100%;
+} */
   .about {
     display: flex;
     align-items: center;
@@ -44,7 +50,7 @@
   }
 
   .back-about {
-    width: 322px;
+    width: 20.125rem;
     height: 450px;
     padding: 2vh;
   }
@@ -152,7 +158,7 @@
   }
 
   .message-box {
-    width: 327px;
+    width: 20.4375rem;
     height: 170px;
     background: rgb(255, 255, 255);
     border: 0.0625rem solid rgb(207, 216, 220);
@@ -384,7 +390,6 @@
     line-height: 1rem;
     color: rgb(122, 134, 154);
   }
-
   .works-title {
     width: 40%;
   }
@@ -599,4 +604,36 @@
   .arrow-right {
     padding: 0.9rem 1.6rem 1rem 1.2rem;
   }
+}
+
+.appear {
+  width: 100%;
+  background-color: green;
+/* height: 1142px; */
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: 1000;
+  top: 0px;
+  bottom: 0px;
+left: -100%;
+  }
+
+.active{
+left: 0;
+}
+
+.navLink{
+margin: 1rem;
+color:aliceblue;
+}
+
+.navList{
+margin:20rem auto;
+}
+
+.closeBtn{
+  display:flex;
+justify-content: flex-end;
+color: white;
 }

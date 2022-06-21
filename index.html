@@ -16,19 +16,30 @@
 
 <body>
   <main>
+    <div class="appear">
+      <ul class="navList">
+        <li class="navItem"><a href="#" class="closeNav">X</a></li>
+      <li class="navItem"><a href="#" class="navLink">Porfolio</a></li>
+      <li class="navItem"><a href="#" class="navLink">About</a></li>
+      <li class="navItem"><a href="#" class="navLink">Contact</a></li>
+      </ul>
+      </div>
     <header>
       <div id="logonav">
         <h2 class="logo">
           <a href="#">My Logo</a>
         </h2>
         <nav>
+<div class="nav-link">
           <ul>
             <li>
-              <a href="#"><img class="menu" src="./images/IconMenu.svg" alt="ham"></a>
+              <a class="hamburger" href="#"><img class="menu" src="./images/IconMenu.svg" alt="ham"></a>
             </li>
           </ul>
+        </div>
         </nav>
       </div>
+
     </header>
 
     <section class="intro">
@@ -82,6 +93,8 @@
         <div class="container">
           <div class="works-tonic">
             <div class="snapshoot">
+              <a href="" onclick="window.open('./images/snapshoot-1.png','targetWindow',
+               'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1090px, height=550px, top=25px left=120px'); return false;">click here</a>
               <img src="./images/snapshoot-1.png" alt="snap" id="snap1"/>
             </div>
             <div class="work-title">
@@ -331,7 +344,7 @@
     <footer>
     </footer>
   </main>
-
+<script src="navbar.js"></script>
 </body>
 
 </html>
