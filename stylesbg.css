@@ -140,7 +140,8 @@ height: 100%;
     align-content: center;
     width: 100vw;
     height: 48.6875rem;
-    background url("./images/contact- form-back.svg") 50% 15% / 92% no-repeat
+    background-image:
+      url("./images/contact- form-back.svg") 50% 15% / 92% no-repeat
       rgb(96, 112, 255);
   }
 
@@ -624,15 +625,14 @@ height: 100%;
 }
 
 .navLink {
-width: 30rem;
-display:flex;
-margin-left: 30px;
-color:white;
-font-weight: 700;
-font-size: 32px;
-padding: 1rem;
-border-bottom: 1px solid white;
-
+  width: 30rem;
+  display: flex;
+  margin-left: 30px;
+  color: white;
+  font-weight: 700;
+  font-size: 32px;
+  padding: 1rem;
+  border-bottom: 1px solid white;
 }
 
 .navList {
@@ -645,10 +645,11 @@ border-bottom: 1px solid white;
   top: 0;
   right: 0;
   bottom: 0;
-left:-100%;
+  left: -100%;
 }
+
 .show {
-left: 0px;
+  left: 0;
 }
 
 .closeItem {
@@ -660,9 +661,9 @@ left: 0px;
   color: white;
   font-weight: 700;
 }
-.closeNav {
-color:white;
 
+.closeNav {
+  color: white;
 }
 
 .closeBtn {
