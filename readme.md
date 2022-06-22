@@ -3,6 +3,8 @@
 
 > > This project was fitted into mobile & desktop with responsive dimension, you can find on this clear custom design an approach on your next portfolio work.
 
+**Preview link** https://andym80.github.io/my-portfolio-skeleton/
+
 ## Built With
 
 - HTML/CSS
@@ -43,7 +45,7 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- etc
+- etc...
 
 ## 📝 License
 
