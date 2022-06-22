@@ -1,4 +1,3 @@
-
 @media only screen and (min-width: 768px) {
   * {
     margin: 0;
@@ -141,8 +140,7 @@ height: 100%;
     align-content: center;
     width: 100vw;
     height: 48.6875rem;
-    background:
-      url("./images/contact- form-back.svg") 50% 15% / 92% no-repeat
+    background url("./images/contact- form-back.svg") 50% 15% / 92% no-repeat
       rgb(96, 112, 255);
   }
 
@@ -622,16 +620,49 @@ height: 100%;
 }
 
 .active {
-  left: 0;
+  left: 100%;
 }
 
 .navLink {
-  margin: 1rem;
-  color: aliceblue;
+width: 30rem;
+display:flex;
+margin-left: 30px;
+color:white;
+font-weight: 700;
+font-size: 32px;
+padding: 1rem;
+border-bottom: 1px solid white;
+
 }
 
 .navList {
-  margin: 20rem auto;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background: #6070ff;
+  width: 100%;
+  height: 50rem;
+  top: 0;
+  right: 0;
+  bottom: 0;
+left:-100%;
+}
+.show {
+left: 0px;
+}
+
+.closeItem {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  font-size: 32px;
+  color: white;
+  font-weight: 700;
+}
+.closeNav {
+color:white;
+
 }
 
 .closeBtn {
