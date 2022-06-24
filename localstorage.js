@@ -14,7 +14,7 @@ localStorage.setItem('collectData', collectData);
 function reachData(){
 	if (localStorage.getItem('collectData')){
 const realDAta = JSON.parse(localStorage.getItem('collectData'));
-textz.value ç0 realDAta.Name;
+textz.value = realDAta.Name;
 mailWays.value = realDAta.Email;
 textArea.value = realData.Area;
 	}
