@@ -36,6 +36,7 @@
     background-image: url("./images/header-shapes mobile.png");
     background-repeat: no-repeat;
     background-position: 0 top;
+    background-size: cover;
   }
 
   .back-about {
@@ -86,7 +87,27 @@
     align-items: center;
   }
 
+  .container-about-frame {
+    margin: 0 auto;
+    max-width: 67.5rem;
+    padding: 0 0.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+
   .connectlink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 100vw;
+    height: 48.6875rem;
+    /* stylelint-disable-next-line declaration-colon-newline-after */
+    background: url("./images/form-shapes-mobile.svg") 9.5625rem 1.3125rem
+      no-repeat rgb(96, 112, 255);
     padding: 0.75rem;
     font-size: 1rem;
     font-weight: 500;
@@ -102,6 +123,17 @@
     line-height: 1.5rem;
     text-align: left;
     color: rgb(127, 140, 255);
+  }
+
+  .connect-intro {
+    text-align: center;
+    font-family: Poppins, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: rgb(255, 255, 255);
+    margin: 0.75rem;
   }
 
   .counter {
@@ -126,9 +158,9 @@
     align-content: center;
     width: 100vw;
     height: 48.6875rem;
-    background:
-      url("./images/form-shapes-mobile.svg") 9.5625rem 1.3125rem no-repeat
-      rgb(96, 112, 255);
+    /* stylelint-disable-next-line declaration-colon-newline-after */
+    background: url("./images/form-shapes-mobile.svg") 9.5625rem 1.3125rem
+      no-repeat rgb(96, 112, 255);
   }
 
   .form-name-box,
@@ -260,6 +292,10 @@
     color: rgb(52, 69, 99);
   }
 
+  .intro-text-box {
+    padding: 0 10px;
+  }
+
   li {
     list-style-type: none;
   }
@@ -335,6 +371,9 @@
     box-sizing: border-box;
     border: 0.0625rem solid rgb(223, 225, 230);
     align-content: center;
+    justify-content: center;
+    padding: 1.5rem 0.75rem 0 1.5rem;
+    border-radius: 1.5rem;
   }
 
   .works-info li {
@@ -395,6 +434,16 @@
   #logonav {
     display: flex;
     justify-content: space-between;
+  }
+
+  .socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 5.625rem;
+    height: 1.25rem;
+    margin: 0 1.5rem;
   }
 
   .submit-button {

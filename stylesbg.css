@@ -8,11 +8,12 @@
     text-decoration: none;
   }
 
-  /* .appear{
-width: 100%;
-background-color: green;
-height: 100%;
-} */
+  .appear {
+    width: 100%;
+    background-color: green;
+    height: 100%;
+  }
+
   .about {
     display: flex;
     align-items: center;
@@ -141,8 +142,8 @@ height: 100%;
     width: 100vw;
     height: 48.6875rem;
     background-image:
-      url("./images/contact- form-back.svg") 50% 15% / 92% no-repeat
-      rgb(96, 112, 255);
+      url("./images/contact- form-back.svg") 50% 15% / 92%
+      no-repeat rgb(96, 112, 255);
   }
 
   .form-name-box,
