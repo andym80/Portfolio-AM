@@ -8,11 +8,6 @@
     text-decoration: none;
   }
 
-  /* .appear{
-width: 100%;
-background-color: green;
-height: 100%;
-} */
   .about {
     display: flex;
     align-items: center;
@@ -22,6 +17,7 @@ height: 100%;
     padding-top: 0.1875rem;
     background-color: rgb(255, 255, 255);
     width: 100%;
+    border-radius: 20px;
   }
 
   article {
@@ -140,9 +136,8 @@ height: 100%;
     align-content: center;
     width: 100vw;
     height: 48.6875rem;
-    background-image:
-      url("./images/contact- form-back.svg") 50% 15% / 92% no-repeat
-      rgb(96, 112, 255);
+    background-color: rgb(96, 112, 255);
+    border-radius: 20px;
   }
 
   .form-name-box,
@@ -478,7 +473,22 @@ height: 100%;
     height: fit-content;
   }
 
-  #snap,
+  #snap1 {
+    border-radius: 5px;
+    width: 95%;
+  }
+
+  #snap2 {
+    border-radius: 5px;
+    width: 93%;
+    height: 100%;
+  }
+
+  #snap3 {
+    width: 90%;
+    height: 100%;
+  }
+
   #snap2,
   #snap3,
   #snap4 {
@@ -552,8 +562,8 @@ height: 100%;
   .lang-frame-skills {
     background-color: rgb(255, 255, 255);
     padding: 0.5% 0% 1% 0%;
-    width: 100%;
-    height: -50%;
+    width: 50%;
+    height: 50%;
   }
 
   .lang-frame-skills_languages {
@@ -683,4 +693,44 @@ height: 100%;
   display: flex;
   justify-content: flex-end;
   color: white;
+}
+
+/* ----languages + frameworks + skills ---- */
+
+.box {
+  display: flex;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+  /* stylelint-disable-next-line length-zero-no-unit */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.box:hover i {
+  animation-name: pulse;
+}
+
+.animate__animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-scroll.animate__animated.animate__fadeIn {
+  opacity: 1;
 }
